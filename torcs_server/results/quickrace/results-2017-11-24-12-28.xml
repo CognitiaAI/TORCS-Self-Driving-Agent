@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE params SYSTEM "C:/Users/Faizan/Documents/AI Project/Torcs Installed/torcs/config/params.dtd">
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Faizan/Documents/AI Project/Torcs Installed/torcs/config/style.xsl"?>
+
+<params name="Results">
+  <section name="Header">
+    <attnum name="date" val="1.51151e+009"/>
+  </section>
+
+  <section name="Current">
+    <attnum name="current track" val="1"/>
+    <attnum name="current race" val="1"/>
+    <attnum name="current driver" val="1"/>
+  </section>
+
+  <section name="Spring">
+    <section name="Drivers">
+      <section name="1">
+        <attstr name="dll name" val="scr_server"/>
+        <attnum name="index" val="0"/>
+      </section>
+
+      <section name="2">
+        <attstr name="dll name" val="berniw"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+      <section name="3">
+        <attstr name="dll name" val="berniw"/>
+        <attnum name="index" val="2"/>
+      </section>
+
+      <section name="4">
+        <attstr name="dll name" val="berniw2"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+      <section name="5">
+        <attstr name="dll name" val="berniw2"/>
+        <attnum name="index" val="2"/>
+      </section>
+
+      <section name="6">
+        <attstr name="dll name" val="berniw3"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+      <section name="7">
+        <attstr name="dll name" val="bt"/>
+        <attnum name="index" val="0"/>
+      </section>
+
+      <section name="8">
+        <attstr name="dll name" val="damned"/>
+        <attnum name="index" val="0"/>
+      </section>
+
+      <section name="9">
+        <attstr name="dll name" val="inferno"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+    </section>
+
+    <section name="Results">
+      <section name="Quick Race">
+        <attnum name="laps" val="3"/>
+        <section name="Rank">
+          <section name="1">
+            <attstr name="name" val="inferno 1"/>
+            <attstr name="car" val="car1-ow1"/>
+            <attnum name="index" val="8"/>
+            <attnum name="laps" val="3"/>
+            <attnum name="time" val="1174.31"/>
+            <attnum name="best lap time" val="381.002"/>
+            <attnum name="top speed" val="92.3489"/>
+            <attnum name="dammages" val="0"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="inferno"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="2">
+            <attstr name="name" val="berniw 1"/>
+            <attstr name="car" val="car1-stock1"/>
+            <attnum name="index" val="1"/>
+            <attnum name="laps" val="3"/>
+            <attnum name="time" val="1417.84"/>
+            <attnum name="best lap time" val="468.928"/>
+            <attnum name="top speed" val="89.6492"/>
+            <attnum name="dammages" val="0"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="berniw"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="3">
+            <attstr name="name" val="berniw 2"/>
+            <attstr name="car" val="car1-stock1"/>
+            <attnum name="index" val="2"/>
+            <attnum name="laps" val="3"/>
+            <attnum name="time" val="1422.42"/>
+            <attnum name="best lap time" val="468.976"/>
+            <attnum name="top speed" val="89.65"/>
+            <attnum name="dammages" val="0"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="berniw"/>
+            <attnum name="idx" val="2"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="4">
+            <attstr name="name" val="scr_server 1"/>
+            <attstr name="car" val="car1-trb1"/>
+            <attnum name="index" val="0"/>
+            <attnum name="laps" val="3"/>
+            <attnum name="time" val="1521.17"/>
+            <attnum name="best lap time" val="485.976"/>
+            <attnum name="top speed" val="73.9134"/>
+            <attnum name="dammages" val="0"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="scr_server"/>
+            <attnum name="idx" val="0"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="5">
+            <attstr name="name" val="berniw two 2"/>
+            <attstr name="car" val="Peugeot 206 WRC"/>
+            <attnum name="index" val="4"/>
+            <attnum name="laps" val="3"/>
+            <attnum name="time" val="1529.18"/>
+            <attnum name="best lap time" val="506.192"/>
+            <attnum name="top speed" val="64.3799"/>
+            <attnum name="dammages" val="0"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="berniw2"/>
+            <attnum name="idx" val="2"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="6">
+            <attstr name="name" val="berniw two 1"/>
+            <attstr name="car" val="Ford Focus WRC"/>
+            <attnum name="index" val="3"/>
+            <attnum name="laps" val="3"/>
+            <attnum name="time" val="1529.98"/>
+            <attnum name="best lap time" val="503.794"/>
+            <attnum name="top speed" val="64.6071"/>
+            <attnum name="dammages" val="0"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="berniw2"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="7">
+            <attstr name="name" val="bt 1"/>
+            <attstr name="car" val="car1-stock1"/>
+            <attnum name="index" val="6"/>
+            <attnum name="laps" val="3"/>
+            <attnum name="time" val="1657.77"/>
+            <attnum name="best lap time" val="539.922"/>
+            <attnum name="top speed" val="83.9912"/>
+            <attnum name="dammages" val="0"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="bt"/>
+            <attnum name="idx" val="0"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="8">
+            <attstr name="name" val="damned 1"/>
+            <attstr name="car" val="Ford Focus WRC"/>
+            <attnum name="index" val="7"/>
+            <attnum name="laps" val="3"/>
+            <attnum name="time" val="1678.62"/>
+            <attnum name="best lap time" val="549.13"/>
+            <attnum name="top speed" val="64.3002"/>
+            <attnum name="dammages" val="0"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="damned"/>
+            <attnum name="idx" val="0"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="9">
+            <attstr name="name" val="berniw hist 1"/>
+            <attstr name="car" val="Dino 246 GT"/>
+            <attnum name="index" val="5"/>
+            <attnum name="laps" val="2"/>
+            <attnum name="time" val="1181.28"/>
+            <attnum name="best lap time" val="584.49"/>
+            <attnum name="top speed" val="65.5072"/>
+            <attnum name="dammages" val="0"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="berniw3"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+        </section>
+
+      </section>
+
+    </section>
+
+  </section>
+
+  <section name="Standings">
+    <section name="1">
+      <attstr name="name" val="inferno 1"/>
+      <attstr name="module" val="inferno"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="2">
+      <attstr name="name" val="berniw 1"/>
+      <attstr name="module" val="berniw"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="3">
+      <attstr name="name" val="berniw 2"/>
+      <attstr name="module" val="berniw"/>
+      <attnum name="idx" val="2"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="4">
+      <attstr name="name" val="scr_server 1"/>
+      <attstr name="module" val="scr_server"/>
+      <attnum name="idx" val="0"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="5">
+      <attstr name="name" val="berniw two 2"/>
+      <attstr name="module" val="berniw2"/>
+      <attnum name="idx" val="2"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="6">
+      <attstr name="name" val="berniw two 1"/>
+      <attstr name="module" val="berniw2"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="7">
+      <attstr name="name" val="bt 1"/>
+      <attstr name="module" val="bt"/>
+      <attnum name="idx" val="0"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="8">
+      <attstr name="name" val="damned 1"/>
+      <attstr name="module" val="damned"/>
+      <attnum name="idx" val="0"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="9">
+      <attstr name="name" val="berniw hist 1"/>
+      <attstr name="module" val="berniw3"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+  </section>
+
+</params>
