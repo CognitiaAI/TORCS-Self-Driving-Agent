@@ -1,4 +1,4 @@
-# TORCS-Self-Driving-Agent
+# TORCS-Self-Driving-Agent <img src=images/cognitia-l.png#gh-light-mode-only width="200" align="right"> <img src=images/cognitia-d.png#gh-dark-mode-only width="200" align="right">
 ## Introduction
 The project involves building of an intelligent game playing bot for the TORCS Racing environment.
 ### Languages and libraries used:
