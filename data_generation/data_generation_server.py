@@ -77,7 +77,6 @@ if __name__ == "__main__":
                     swap_and_write(currentIdx)
                     currentIdx += 1
                     display_xml()
-                print("HERE: ", os.listdir('.\\'))
                 subprocess.call(['wtorcs.exe', '-r', 
                                 '..\\data_generation\\temp.xml'])
                 if race_num == 30:
