@@ -2,7 +2,6 @@ import os
 import subprocess
 
 if __name__ == "__main__":
-    print("HELLO WORLD")
     os.chdir(r".\\Ahura\\bin")
     cmd = ['java', 'ahuraDriver.Client', 'ahuraDriver.DriverControllerE6', 'port:3001', 
        'host:localhost', 'id:SCR', 'maxEpisodes:1', 'maxSteps:0', 'stage:2', 'trackName:']
