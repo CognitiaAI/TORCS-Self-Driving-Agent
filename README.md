@@ -19,6 +19,8 @@ Training data consisted of more than 11 million examples and validation data con
 3) Change directory to `data_generation` using `cd data_generation`.
 4) Run `python data_generation_server.py`. For this, we do not need to activate any environment. Default environment will be okay. It will run TORCS and then click on every first option i.e. Race, Quick Race, New Race. It will then start waiting for the client to connect ;)
 5) Run `python data_generation_client.py`. You will see the client will connect and race will start. When the race ends, the data is generated in `./data/`.
+### Training:
+Training material is present in `model/Model.ipynb`. It contains integration with sample data. Similarly one can change this notebook according to the data being generated.
 
 ## How to run trained TORCS agent
 
