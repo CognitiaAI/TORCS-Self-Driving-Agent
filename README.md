@@ -26,7 +26,7 @@ Training material is present in `model/Model.ipynb`. It contains integration wit
 
 ### Pre-requisite
 1) Anaconda python installed. In case anaconda is not installed, follow [Anaconda Installation](https://www.anaconda.com/products/individual) and install anaconda.
-2) Clone the repository and import the environment by running `conda env create -f torcs.yml`. 
+2) Clone the repository and import the environment by running `conda env create -f torcs_env.yml`. 
 3) Activate the enviornment i.e. `conda activate torcs_env`. 
 4) Client.py is the file which tries to connect with the server. Run client.py and make sure no error comes.
 ### How to run the server
