@@ -14,11 +14,11 @@ We had data for 30 races in every track. For feeding it to neural network, 73 se
 ### Experiments:
 Training data consisted of more than 11 million examples and validation data consisted of 2 million examples. Initially made a small neural network containing three hidden layers of 512, 256, 128 neurons. Model was under-fitting since the number of parameters to learn were too low. After 30 epochs, the loss became constant and the model was behaving average when tested. Tried a deeper neural network having eight layers with more neurons and this model converged nicely.
 ### Data Generation:
-1) 'data_generation' is the folder having all the necessary files for data generation. 'data_generation/Ahura' is the agent from which data is extracted.
-2) Place 'data_generation/temp/temp' to '/data_generation/'.
-3) Change directory to 'data_generation' using 'cd data_generation'.
-4) Run 'python data_generation_server.py'. For this, we do not need to activate any environment. Default environment will be okay. It will run TORCS and then click on every first option i.e. Race, Quick Race, New Race. It will then start waiting for the client to connect ;)
-5) Run 'python data_generation_client.py'. You will see the client will connect and race will start. When the race ends, the data is generated in './data/'.
+1) `data_generation` is the folder having all the necessary files for data generation. `data_generation/Ahura` is the agent from which data is extracted.
+2) Place `data_generation/temp/temp` to `/data_generation/`.
+3) Change directory to `data_generation` using `cd data_generation`.
+4) Run `python data_generation_server.py`. For this, we do not need to activate any environment. Default environment will be okay. It will run TORCS and then click on every first option i.e. Race, Quick Race, New Race. It will then start waiting for the client to connect ;)
+5) Run `python data_generation_client.py`. You will see the client will connect and race will start. When the race ends, the data is generated in `./data/`.
 
 ## How to run trained TORCS agent
 
